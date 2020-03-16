@@ -26,6 +26,15 @@ define({ "api": [
       }
     },
     "group": "Website",
+    "success": {
+      "examples": [
+        {
+          "title": "Success Response Example",
+          "content": "\n{\n  \"website\":\n  {\n   \"name\":\"some website\",\n   \"url\":\"https:\\/\\/yandex.ru\",\n   \"updated_at\":\"2020-03-16T05:14:43.000000Z\",\n   \"created_at\":\"2020-03-16T05:14:43.000000Z\",\n   \"id\":72\n  }\n}",
+          "type": "json"
+        }
+      ]
+    },
     "filename": "app/Http/Controllers/Api/WebsiteController.php",
     "groupTitle": "Website"
   },

@@ -64,6 +64,18 @@ class WebsiteController extends \App\Http\Controllers\Controller
      * @apiParam {string} name Name of the Webiste
      * @apiParam {string} url URL of the Website
      * @apiGroup Website
+     * @apiSuccessExample {json} Success Response Example
+     *
+     * {
+     *   "website":
+     *   {
+     *    "name":"some website",
+     *    "url":"https:\/\/yandex.ru",
+     *    "updated_at":"2020-03-16T05:14:43.000000Z",
+     *    "created_at":"2020-03-16T05:14:43.000000Z",
+     *    "id":72
+     *   }
+     * }
      */
     public function store(WebsiteCreateRequest $request)
     {
