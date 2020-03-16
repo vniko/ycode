@@ -16,6 +16,7 @@ The API docs are available under "/docs-api". They are compiled with  APIDOC (ht
 - Clone the repo 
 - Run `composer install`
 - Run `npm install` or `yarn install`
+- Run `cp .env.example .env` or copy .env.example to .env manually 
 - Create a MySQL database and set credentials in '.env' file
 - Run `php artisan install`
 - Run `php artisan serve` and following the provided url (http://127.0.0.1:8000)
